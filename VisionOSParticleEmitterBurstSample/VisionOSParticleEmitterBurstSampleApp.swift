@@ -3,6 +3,7 @@
 //  VisionOSParticleEmitterBurstSample
 //
 //  Created by Sadao Tokuyama on 1/25/24.
+//  https://twitter.com/tokufxug
 //
 
 import SwiftUI

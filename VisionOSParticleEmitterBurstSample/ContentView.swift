@@ -3,11 +3,11 @@
 //  VisionOSParticleEmitterBurstSample
 //
 //  Created by Sadao Tokuyama on 1/25/24.
+//  https://twitter.com/tokufxug
 //
 
 import SwiftUI
 import RealityKit
-import RealityKitContent
 
 struct ContentView: View {
 
@@ -19,10 +19,7 @@ struct ContentView: View {
 
     var body: some View {
         VStack {
-            Model3D(named: "Scene", bundle: realityKitContentBundle)
-                .padding(.bottom, 50)
-
-            Text("Hello, world!")
+            Text("Perticle Emitter Burst Sample").font(.extraLargeTitle)
 
             Toggle("Show Immersive Space", isOn: $showImmersiveSpace)
                 .toggleStyle(.button)
